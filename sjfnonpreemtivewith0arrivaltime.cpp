@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int booblesort(int pro[],int Bt[], int At[],int n)
+int bubblesort(int pro[],int Bt[], int At[],int n)
 {
 	int i,j,temp_pro,temp_Bt,temp_At;
 	for(i=0;i<n-1;i++)

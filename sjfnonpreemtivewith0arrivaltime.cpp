@@ -38,7 +38,7 @@ pro[i]=i;
 cout<<"enter arival and brust time of process "<<i<<endl;
 cin>>At[i]>>Bt[i];
 }
-booblesort(pro,Bt,At,n);
+bubblesort(pro,Bt,At,n);
 
 gt=At[0];
 for(int i =1;i<n;i++)

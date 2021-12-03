@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int booblesort(int pro[],int Bt[], int At[],int n)
+int bubblesort(int pro[],int Bt[], int At[],int n)
 {
 	int i,j,temp_pro,temp_Bt,temp_At;
 	for(i=0;i<n-1;i++)
@@ -38,7 +38,7 @@ pro[i]=i;
 cout<<"enter arival and brust time of process "<<i<<endl;
 cin>>At[i]>>Bt[i];
 }
-booblesort(pro,Bt,At,n);
+bubblesort(pro,Bt,At,n);
 
 gt=At[0];
 for(int i =1;i<n;i++)

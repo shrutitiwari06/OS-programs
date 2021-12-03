@@ -1,7 +1,7 @@
 import time
 from threading import *
 
-file = "Amit patel"
+file = "Shruti tiwari"
 s = 1
 r = 1
 reader_count = 0
